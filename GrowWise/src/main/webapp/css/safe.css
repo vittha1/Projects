@@ -1,0 +1,39 @@
+body{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    height: 90vh;
+    width: 100%;
+    color: white;
+    background: 
+    linear-gradient(to right, rgba(0, 0, 0), rgba(69, 69, 69)), 
+    url('https://cdn.slidesharecdn.com/ss_thumbnails/childsafety-151001031859-lva1-app6891-thumbnail.jpg?width=640&height=640&fit=bounds');
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.h-100{
+    height: 100%;
+    width: 100%;
+}
+
+.myicon
+{
+    font-size: 60px;
+    padding: 20px;
+   
+}
+.features
+ {
+ background-color: #E4E4E1;
+ background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	background-blend-mode: normal, multiply;
+ }
+.video{
+background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+       

@@ -1,0 +1,35 @@
+body{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    height: 90vh;
+    width: 100%;
+    color: white;
+    background: 
+    linear-gradient(to right, rgba(0, 0, 0), rgba(69, 69, 69)), 
+    url('https://media.istockphoto.com/id/1301604826/photo/female-doctor-stock-photo.jpg?s=1024x1024&w=is&k=20&c=2x--e78OhZsheETtMZaxFf1Otho4PTOpXpyNQF2WCXQ=');
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.h-100{
+    height: 100%;
+    width: 100%;
+}
+.btn{
+   border-radius: 10rem;
+   padding: 1rem 1rem !important;
+}
+.myicon
+{
+    font-size: 60px;
+    padding: 20px;
+   
+}
+ 
+
+       
