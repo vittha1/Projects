@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddToCart</servlet-name>
+  	<display-name>AddToCart</display-name>
+  	<description></description>
+  	<servlet-class>com.ewaste.controller.AddToCart</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeliveryPersonReg</servlet-name>
+  	<display-name>DeliveryPersonReg</display-name>
+  	<description></description>
+  	<servlet-class>Delivery.DeliveryPersonReg</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PaymentServlet</servlet-name>
+  	<display-name>PaymentServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ewaste.add.PaymentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>OrderServlet</servlet-name>
+  	<display-name>OrderServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ewaste.controller.OrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddToCart</servlet-name>
+  	<url-pattern>/AddToCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeliveryPersonReg</servlet-name>
+  	<url-pattern>/DeliveryPersonReg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PaymentServlet</servlet-name>
+  	<url-pattern>/PaymentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>OrderServlet</servlet-name>
+  	<url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
