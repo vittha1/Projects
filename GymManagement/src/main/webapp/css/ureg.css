@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Header Section */
+header {
+    color: white;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.3); /* Optional: Adds a semi-transparent background */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo img {
+    height: 125px;
+    width: 170px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.nav-links li a:hover {
+    color: #f9004d;
+    transition: .3s;
+    box-shadow: 0 0 20px rgb(122, 11, 11);
+}
+footer {
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+}
+
+.footer-section:nth-child(2) {
+    text-align: center;
+}
+
+.footer-section:last-child {
+    text-align: right;
+}
+
+.footer-section h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Social media icons size */
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 10px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cards-container {
+        grid-template-columns: repeat(1, 1fr); /* One card per row for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .cards-container {
+        grid-template-columns: repeat(1, 1fr); /* One card per row for small screens */
+    }
+}
+
+ label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="password"],
+    input[type="file"] {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        transition: border-color 0.3s;
+    }
+
+    input[type="text"]:hover,
+    input[type="tel"]:hover,
+    input[type="email"]:hover,
+    input[type="password"]:hover,
+    input[type="file"]:hover {
+        border-color: #007BFF;
+    }
+
+    input[type="submit"] {
+        width: auto; /* Change the width to auto */
+        padding: 10px 20px; /* Add padding for aesthetics */
+        font-size: 18px;
+        color: #fff;
+        background-color: #007BFF;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+        .form-row {
+            width: 100%; /* Full width on smaller screens */
+        }
+    }
+    
+    
+     main h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+     main {
+        position: relative; /* Positioning context for the form */
+        height: 500px; /* Set a height for the main section */
+        overflow: hidden; /* Hide any overflow */
+    }
+
+   
+    
+     .form-container {
+        position: absolute; /* Position over the image */
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Offset the element */
+        background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 80%; /* Width of the form container */
+        max-width: 800px; /* Max width to keep it responsive */
+        color: black;
+    }
+    
+
+    form {
+        display: flex;
+        flex-wrap: wrap; /* Allow wrapping for smaller screens */
+        justify-content: space-between;
+    }
+
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        width: 48%; /* Set width to allow two inputs in a row */
+        margin-bottom: 15px;
+    }
+select {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        transition: border-color 0.3s;
+        width: 100%; /* Ensures it takes up the full width like other input fields */
+    }
+
+    select:hover {
+        border-color: #007BFF;
+    }
+
+.navbar-title {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .navbar-title h1 {
+        font-size: 2rem;
+        font-family: 'Times New Roman', serif;
+        color: cyan;
+        margin: 0;
+    }

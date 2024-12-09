@@ -1,0 +1,114 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Header Section */
+        header {
+            background-color: 	#353935;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 50px;
+        }
+
+        .logo img {
+            height: 125px;
+            width: 170px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 25px;
+        }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-family: 'Times New Roman', sans-serif;
+        }
+
+        .nav-links li a:hover {
+            color: #f9004d;
+            transition: .3s;
+            box-shadow: 0 0 20px rgb(122, 11, 11);
+        }
+        
+        footer 
+        {
+            color: white;
+            padding-top: 5px;
+            background-color: #353935;
+         }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .footer-section {
+            flex: 1;
+            margin: 10px;
+            text-align: left;
+        }
+
+        .footer-section:nth-child(2) {
+            text-align: center;
+        }
+
+        .footer-section:last-child {
+            text-align: right;
+        }
+
+        .footer-section h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 5px;
+        }
+
+        .footer-section ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-section ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Social media icons size */
+        .social-media {
+            display: flex;
+            flex-direction: column;
+            align-items: right;
+            margin-top: 10px;
+        }
+
+        .social-media img {
+            width: 40px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
