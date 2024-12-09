@@ -20,8 +20,8 @@ public class SendMail {
         String to = Email;
         String subject = "QR Code Image";
         String msg = "This is the QR Code Image for you:";
-        final String user = "vitthalghanwate19@gmail.com";
-        final String pass = "lopz uxob zgex pdvk"; // Replace with your actual app password
+        final String user = "Your Mail";
+        final String pass = "Password"; // Replace with your actual app password
         
         // Set up properties for SSL
         Properties props = new Properties();
