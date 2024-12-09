@@ -1,0 +1,35 @@
+
+
+<--------------------- used softwares ----------------->
+
+1.eclipse latest 2024
+2.apache tomcat 9.0 
+3.JRE(JavaSE 1.8)
+
+
+<----------------- Main Three Sections ------------------>
+
+1.Admin
+2.Student
+3.Company
+
+<------------------ Admin ------------------------->
+
+
+
+Homepage ---> login admin -----> 1.Data show ( which contains student requests where admin can accept & reject the requests) 
+                                 2.student data show ( here admin see the accepted and rejected request of the students)
+                                 
+<------------------student------------------------------->
+
+Homepage ---> Register page ------> Login page --------> 1.Update the profile information 
+                                                         2.Update educational information
+                                                         3.student can upload the QR which is received on there mail 
+                                                         after the request is accepted from the admin
+                                                         
+<------------------------------- company -------------------->
+
+Homepage -----> Registration ---------> Login ---------> 1.show OR page( here company hr can see all information of the 
+                                                          student who are uploaded there QR's for limited time) 
+
+

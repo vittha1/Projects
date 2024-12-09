@@ -1,0 +1,76 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+}
+.logo img {
+    height: 120px; /* Adjust the height as needed */
+}
+.navbar {
+    display: flex;
+    gap: 70px;
+}
+.navbar a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: calc(100vh - 120px); /* Adjust height based on header height and some padding */
+    padding: 20px;
+}
+.main-content {
+    display: flex;
+    flex-direction: row; /* Align children horizontally */
+    justify-content: space-between; /* Space between text and image */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    max-width: 1200px; /* Limit width for larger screens */
+    gap: 20px; /* Space between text and image */
+}
+.text {
+    flex: 1; /* Allow text to take up available space */
+    max-width: 50%; /* Limit text width to 50% of the container */
+    text-align: left; /* Align text to the left */
+}
+.image img {
+    max-width: 100%; /* Make sure image scales properly */
+    height: auto; /* Maintain aspect ratio */
+}
+#para {
+    font-size: 1.3rem;
+}
+footer {
+    
+    color: #343a40; /* Dark text color for contrast */
+    padding: 20px;
+    text-align: center; /* Center text within the footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+}
+.footer-content {
+    text-align: center; /* Center text within the footer-content */
+}
+footer a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
